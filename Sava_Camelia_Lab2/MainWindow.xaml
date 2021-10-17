@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Sava_Camelia_Lab2"
         mc:Ignorable="d"
         Title="Pizzeria Colosseo" Height="450" Width="800" ResizeMode="NoResize" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
-    <Grid x:Name="" Margin="0,0,0,-6">
+    <Grid Margin="0,0,0,-6">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
@@ -15,8 +15,8 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label x:Name="lblTitle" Content="Pizza - Bake &amp; Sale" Grid.Column="4" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="226" FontWeight="Bold" FontSize="24" Height="42"/>
-        <GroupBox x:Name="gbPizza" Header="Pizza Type" Margin="4,57,10,264" FontWeight="Bold" Grid.Column="4">
-            <Canvas Margin="0,0,0,12">
+        <GroupBox x:Name="gbPizza" Header="Pizza Type" Margin="4,57,10,234" FontWeight="Bold" Grid.Column="4">
+            <Canvas Height="113">
                 <Label x:Name="___lblMargheritaPizza" Content="Margherita Pizza" Canvas.Left="10" RenderTransformOrigin="0.701,1.544" Height="36" Canvas.Top="28" Width="110"/>
                 <TextBox x:Name="txtMargheritaPizza" Canvas.Left="125" Canvas.Top="35" Text="0" TextWrapping="Wrap" Width="80" TextAlignment="Right" IsReadOnly="True" Height="24"/>
                 <Label x:Name="lblPepperoniPizza" Content="Pepperoni Pizza" Canvas.Left="10" Canvas.Top="69" Width="110"/>
@@ -30,7 +30,7 @@
             </Canvas>
         </GroupBox>
         <GroupBox x:Name="gbSale" Header="Current Sale" FontWeight="Bold" RenderTransformOrigin="0.465,0.52" Margin="4,211,10,10" Grid.Column="4">
-            <Canvas Height="189">
+            <Canvas Height="205">
                 <Label x:Name="lblQuantity" Content="Quantity" Canvas.Left="52" Canvas.Top="10"/>
                 <TextBox x:Name="txtQuantity" Text="0" TextWrapping="Wrap" Width="80" Canvas.Left="116" Canvas.Top="6" TextAlignment="Right" Height="26"/>
                 <Label x:Name="lblType" Content="Type" Canvas.Left="238" Canvas.Top="11" RenderTransformOrigin="0.521,0.562"/>
