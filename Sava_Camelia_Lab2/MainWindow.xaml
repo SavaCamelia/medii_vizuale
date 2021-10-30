@@ -3,16 +3,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:CustomCommands="clr-namespace:Sava_Camelia_Lab2.CustomCommands"
         mc:Ignorable="d"
         Title="Pizzeria Colosseo" Height="450" Width="800" ResizeMode="NoResize" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Loaded="frmMain_Loaded">
-    <Grid Margin="0,0,0,-6">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+    <Grid Margin="0,0,0,-6"  MenuItem.Click="PizzaItemsShow_Click">
         <Label x:Name="lblTitle" Content="Pizza - Bake &amp; Sale" Grid.Column="4" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="226" FontWeight="Bold" FontSize="24" Height="42"/>
         <GroupBox x:Name="gbPizza" Header="Pizza Type" Margin="4,57,10,234" FontWeight="Bold" Grid.Column="4">
             <Canvas Height="113">
@@ -33,15 +27,15 @@
                 <Label x:Name="lblQuantity" Content="Quantity" Canvas.Left="52" Canvas.Top="10"/>
                 <TextBox x:Name="txtQuantity" Text="0" TextWrapping="Wrap" Width="80" Canvas.Left="116" Canvas.Top="6" TextAlignment="Right" Height="26" KeyUp="txtQuantity_KeyUp"/>
                 <Label x:Name="lblType" Content="Type" Canvas.Left="238" Canvas.Top="11" RenderTransformOrigin="0.521,0.562"/>
-                <ComboBox x:Name="cmbType" Canvas.Left="294" Canvas.Top="8" Width="94"/>
+                <ComboBox x:Name="cmbType" Canvas.Left="294" Canvas.Top="8" Width="94" SelectionChanged="cmbType_SelectionChanged"/>
                 <Label x:Name="lblPrice" Content="Price" Canvas.Left="419" Canvas.Top="8"/>
                 <TextBox x:Name="txtPrice" Canvas.Left="468" Canvas.Top="10" Text="0" TextWrapping="Wrap" Width="82" TextAlignment="Right" IsReadOnly="True"/>
                 <ListBox x:Name="lstSale" Height="104" Width="536" Canvas.Left="26" Canvas.Top="41"/>
                 <Label x:Name="lblTotal" Content="Total" Canvas.Left="400" Canvas.Top="152"/>
                 <TextBox x:Name="txtTotal" Canvas.Left="455" Canvas.Top="156" Text="0" TextWrapping="Wrap" Width="107" TextAlignment="Right" IsReadOnly="True"/>
-                <Button x:Name="btnAddToSale" Content="Add To Sale" Canvas.Left="624" Canvas.Top="41" FontWeight="Normal" Width="96" Height="27"/>
-                <Button x:Name="btnRemoveItem" Content="Remove Item" Canvas.Left="624" Canvas.Top="78" FontWeight="Normal" Height="32" Width="96"/>
-                <Button x:Name="btnCheckOut" Content="Check Out" Canvas.Left="618" Canvas.Top="127" Height="49" Width="108"/>
+                <Button x:Name="btnAddToSale" Content="Add To Sale" Canvas.Left="624" Canvas.Top="41" FontWeight="Normal" Width="96" Height="27" Click="btnAddToSale_Click"/>
+                <Button x:Name="btnRemoveItem" Content="Remove Item" Canvas.Left="624" Canvas.Top="78" FontWeight="Normal" Height="32" Width="96" Click="btnRemoveItem_Click"/>
+                <Button x:Name="btnCheckOut" Content="Check Out" Canvas.Left="618" Canvas.Top="127" Height="49" Width="108" Click="btnCheckOut_Click"/>
             </Canvas>
         </GroupBox>
         <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="81" Grid.ColumnSpan="5">
@@ -61,7 +55,8 @@
                     <MenuItem x:Name="canPizzaMenuItem" Header="Canibale Pizza"
                               Click="canPizzaMenuItem_Click" IsCheckable="True"/>
                 </MenuItem>
-                <MenuItem Header="Stop" x:Name="mnuStop" Click="stopMenuItem_Click"/>
+                <MenuItem Header="Stop" x:Name="mnuStop" Click="stopMenuItem_Click" InputGestureText="Ctrl+S" Command="CustomCommands:StopCommand.Launch"/>
+                <MenuItem Header="Inventory" Command="ApplicationCommands.Print"/>
             </MenuItem>
         </Menu>
 
