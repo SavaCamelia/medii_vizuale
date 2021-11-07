@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\AutoGeistModel.dll.config
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\AutoGeistModel.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\AutoGeistModel.pdb
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\obj\Debug\AutoGeistModel.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\obj\Debug\AutoGeistModel.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\obj\Debug\AutoGeistModel.csproj.CopyComplete
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\obj\Debug\AutoGeistModel.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab5\AutoGeistModel\obj\Debug\AutoGeistModel.pdb
