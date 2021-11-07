@@ -1,0 +1,22 @@
+- prezentare generala proiect ***
+	-> scris in 3 limbaje de programare: JavaScript, Python, PHP
+	-> are 3 componente principale: extensie browser, API-backend, interfata de administrare
+	(max 2 slide-uri)
+
+- IDE folosit: VS Code
+***	-> (1 slide) scurta prezentare (istoric, puncte forte, free, open-source, multi-platform, etc.)
+***	-> (1 slide) enumerare functionalitati (terminal accesibil din IDE, git, evidentiere cod, intellisense, debugging (breakpoint))
+???	-> (1-2 slide-uri) instalare si configurare ("open in vs code")
+***	-> (1 slide) instalare extensii
+???	-> (1 slide) creare proiect
+***	-> (1 slide) intellisense si autocompletare cod
+***	-> (1 slide) facilitati git (clone, push, sync, commit)
+***	-> (1 slide) terminal
+***	-> (1 slide) debugging
+***	-> (1 slide) docstring
+***	-> (2 slide) CTRL+SHIFT+P care cauta fisiere, variabile, consola
+	-> (1 slide) Live Server
+	-> (1 slide) Live Share
+
+-> (1 slide) Intrebari recapitulative
+	
