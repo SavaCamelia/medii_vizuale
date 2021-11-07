@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sava_Camelia_Lab5", "Sava_Camelia_Lab5.csproj", "{F4044E36-AC2F-4983-ABAB-BC9EAD750197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGeistModel", "AutoGeistModel\AutoGeistModel.csproj", "{EF704F8B-BC30-42AE-9DCA-C119F812E508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4044E36-AC2F-4983-ABAB-BC9EAD750197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4044E36-AC2F-4983-ABAB-BC9EAD750197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4044E36-AC2F-4983-ABAB-BC9EAD750197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4044E36-AC2F-4983-ABAB-BC9EAD750197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF704F8B-BC30-42AE-9DCA-C119F812E508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF704F8B-BC30-42AE-9DCA-C119F812E508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF704F8B-BC30-42AE-9DCA-C119F812E508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF704F8B-BC30-42AE-9DCA-C119F812E508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF84982-14B3-476F-91DD-5D5688399D1B}
+	EndGlobalSection
+EndGlobal
