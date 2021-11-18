@@ -30,6 +30,7 @@ namespace Sava_Camelia_Lab5
         CollectionViewSource carViewSource;
         CollectionViewSource customerViewSource;
         CollectionViewSource carOrdersViewSource;
+        
 
         Binding bodyStyleTextBoxBinding = new Binding();
         Binding modelTextBoxBinding = new Binding();
@@ -37,11 +38,12 @@ namespace Sava_Camelia_Lab5
 
         Binding firstNameTextBoxBinding = new Binding();
         Binding lastNameTextBoxBinding = new Binding();
-        Binding purchaseDateTextBoxBinding = new Binding();
+        Binding purchaseDateDatePickerBinding = new Binding();
         public MainWindow()
         {
             InitializeComponent();
             DataContext = this;
+            //DateTime.ParseExact(purchaseDateDatePicker.ToString(), "dd/MM/yyyy", null);
 
             modelTextBoxBinding.Path = new PropertyPath("Model");
             makeTextBoxBinding.Path = new PropertyPath("Make");
@@ -52,10 +54,10 @@ namespace Sava_Camelia_Lab5
 
             firstNameTextBoxBinding.Path = new PropertyPath("FirstName");
             lastNameTextBoxBinding.Path = new PropertyPath("LastName");
-            purchaseDateTextBoxBinding.Path = new PropertyPath("PurchaseDate");
+            purchaseDateDatePickerBinding.Path = new PropertyPath("PurchaseDate");
             firstNameTextBox.SetBinding(TextBox.TextProperty, firstNameTextBoxBinding);
             lastNameTextBox.SetBinding(TextBox.TextProperty, lastNameTextBoxBinding);
-            purchaseDateTextBox.SetBinding(TextBox.TextProperty, purchaseDateTextBoxBinding);
+            purchaseDateDatePicker.SetBinding(TextBox.TextProperty, purchaseDateDatePickerBinding);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -100,10 +102,10 @@ namespace Sava_Camelia_Lab5
                 case "Customers":
                     BindingOperations.ClearBinding(firstNameTextBox, TextBox.TextProperty);
                     BindingOperations.ClearBinding(lastNameTextBox, TextBox.TextProperty);
-                    BindingOperations.ClearBinding(purchaseDateTextBox, TextBox.TextProperty);
+                    BindingOperations.ClearBinding(purchaseDateDatePicker, TextBox.TextProperty);
                     firstNameTextBox.Text = "";
                     lastNameTextBox.Text = "";
-                    purchaseDateTextBox.Text = "";
+                    purchaseDateDatePicker.Text = "";
                     Keyboard.Focus(firstNameTextBox);
                     break;
                 case "Orders":
@@ -215,8 +217,8 @@ namespace Sava_Camelia_Lab5
                     {
                         FirstName = firstNameTextBox.Text.Trim(),
                         LastName = lastNameTextBox.Text.Trim(),
-                        PurchaseDate = purchaseDateTextBox.Text.Trim(),
-                    };
+                        PurchaseDate = DateTime.ParseExact(purchaseDateDatePicker.ToString(), "dd/MM/yyyy", null),
+                };
                     ctx.Customers.Add(customer);
                     customerViewSource.View.Refresh();
                     customerViewSource.View.MoveCurrentTo(customer);
@@ -229,7 +231,7 @@ namespace Sava_Camelia_Lab5
                 }
                 firstNameTextBox.SetBinding(TextBox.TextProperty, firstNameTextBoxBinding);
                 lastNameTextBox.SetBinding(TextBox.TextProperty, lastNameTextBoxBinding);
-                purchaseDateTextBox.SetBinding(TextBox.TextProperty, purchaseDateTextBoxBinding);
+                purchaseDateDatePicker.SetBinding(TextBox.TextProperty, purchaseDateDatePickerBinding);
             }
             else if (action == ActionState.Edit)
             {
@@ -238,7 +240,7 @@ namespace Sava_Camelia_Lab5
                     customer = (Customer)customerDataGrid.SelectedItem;
                     customer.FirstName = firstNameTextBox.Text.Trim();
                     customer.LastName = lastNameTextBox.Text.Trim();
-                    customer.PurchaseDate = purchaseDateTextBox.Text.Trim();
+                    customer.PurchaseDate = DateTime.ParseExact(purchaseDateDatePicker.ToString(), "dd/MM/yyyy", null);
                     ctx.SaveChanges();
                 }
                 catch (DataException ex)
@@ -249,7 +251,7 @@ namespace Sava_Camelia_Lab5
                 customerViewSource.View.MoveCurrentTo(customer);
                 firstNameTextBox.SetBinding(TextBox.TextProperty, firstNameTextBoxBinding);
                 lastNameTextBox.SetBinding(TextBox.TextProperty, lastNameTextBoxBinding);
-                purchaseDateTextBox.SetBinding(TextBox.TextProperty, purchaseDateTextBoxBinding);
+                purchaseDateDatePicker.SetBinding(TextBox.TextProperty, purchaseDateDatePickerBinding);
             }
             else if (action == ActionState.Delete)
             {
@@ -266,7 +268,7 @@ namespace Sava_Camelia_Lab5
                 customerViewSource.View.Refresh();
                 firstNameTextBox.SetBinding(TextBox.TextProperty, firstNameTextBoxBinding);
                 lastNameTextBox.SetBinding(TextBox.TextProperty, lastNameTextBoxBinding);
-                purchaseDateTextBox.SetBinding(TextBox.TextProperty, purchaseDateTextBoxBinding);
+                purchaseDateDatePicker.SetBinding(TextBox.TextProperty, purchaseDateDatePickerBinding);
             }
         }
 
