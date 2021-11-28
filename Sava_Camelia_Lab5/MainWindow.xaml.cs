@@ -84,6 +84,49 @@ namespace Sava_Camelia_Lab5
             cbCustomers.SelectedValuePath = "CustId";
         }
 
+        private void SetValidationBinding()
+        {
+            Binding firstNameValidationBinding = new Binding();
+            firstNameValidationBinding.Source = customerViewSource;
+            firstNameValidationBinding.Path = new PropertyPath("FirstName");
+            firstNameValidationBinding.NotifyOnValidationError = true;
+            firstNameValidationBinding.Mode = BindingMode.TwoWay;
+            firstNameValidationBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //string required
+            firstNameValidationBinding.ValidationRules.Add(new StringNotEmpty());
+            firstNameTextBox.SetBinding(TextBox.TextProperty, firstNameValidationBinding);
+
+            Binding lastNameValidationBinding = new Binding();
+            lastNameValidationBinding.Source = customerViewSource;
+            lastNameValidationBinding.Path = new PropertyPath("LastName");
+            lastNameValidationBinding.NotifyOnValidationError = true;
+            lastNameValidationBinding.Mode = BindingMode.TwoWay;
+            lastNameValidationBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //string min length validator
+            lastNameValidationBinding.ValidationRules.Add(new StringMinLength());
+            lastNameTextBox.SetBinding(TextBox.TextProperty, lastNameValidationBinding); //setare binding nou
+
+            Binding makeValidationBinding = new Binding();
+            makeValidationBinding.Source = carViewSource;
+            makeValidationBinding.Path = new PropertyPath("Make");
+            makeValidationBinding.NotifyOnValidationError = true;
+            makeValidationBinding.Mode = BindingMode.TwoWay;
+            makeValidationBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //string required
+            makeValidationBinding.ValidationRules.Add(new StringNotEmpty());
+            makeTextBox.SetBinding(TextBox.TextProperty, makeValidationBinding);
+
+            Binding modelValidationBinding = new Binding();
+            modelValidationBinding.Source = carViewSource;
+            modelValidationBinding.Path = new PropertyPath("Model");
+            modelValidationBinding.NotifyOnValidationError = true;
+            modelValidationBinding.Mode = BindingMode.TwoWay;
+            modelValidationBinding.UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged;
+            //string min length validator
+            modelValidationBinding.ValidationRules.Add(new StringMinLength());
+            modelTextBox.SetBinding(TextBox.TextProperty, modelValidationBinding); //setare binding nou
+        }
+
         private void btnNew_Click(object sender, RoutedEventArgs e)
         {
             action = ActionState.New;
@@ -107,6 +150,7 @@ namespace Sava_Camelia_Lab5
                     lastNameTextBox.Text = "";
                     purchaseDateDatePicker.Text = "";
                     Keyboard.Focus(firstNameTextBox);
+                    SetValidationBinding();
                     break;
                 case "Orders":
                     break;
@@ -115,6 +159,7 @@ namespace Sava_Camelia_Lab5
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
             action = ActionState.Edit;
+            SetValidationBinding();
         }
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
