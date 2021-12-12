@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\bin\Debug\netstandard2.0\Sava_Camelia_Lab10.deps.json
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\bin\Debug\netstandard2.0\Sava_Camelia_Lab10.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\bin\Debug\netstandard2.0\ref\Sava_Camelia_Lab10.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\bin\Debug\netstandard2.0\Sava_Camelia_Lab10.pdb
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.AssemblyInfo.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\ref\Sava_Camelia_Lab10.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\Sava_Camelia_Lab10.pdb
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\ListEntryPage.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab10\Sava_Camelia_Lab10\obj\Debug\netstandard2.0\ListPage.xaml.g.cs
