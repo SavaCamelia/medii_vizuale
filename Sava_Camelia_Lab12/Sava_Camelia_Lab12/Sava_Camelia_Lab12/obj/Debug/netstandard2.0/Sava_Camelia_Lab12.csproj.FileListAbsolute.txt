@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\ListEntryPage.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\ListPage.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.AssemblyInfo.cs
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\bin\Debug\netstandard2.0\Sava_Camelia_Lab12.deps.json
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\bin\Debug\netstandard2.0\Sava_Camelia_Lab12.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\bin\Debug\netstandard2.0\ref\Sava_Camelia_Lab12.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\bin\Debug\netstandard2.0\Sava_Camelia_Lab12.pdb
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\ref\Sava_Camelia_Lab12.dll
+C:\Users\User\Desktop\scoala\anul 3\medii_vizuale\Sava_Camelia_Lab12\Sava_Camelia_Lab12\Sava_Camelia_Lab12\obj\Debug\netstandard2.0\Sava_Camelia_Lab12.pdb
